@@ -1,0 +1,427 @@
+body 
+{
+	font-family: "Arial";
+	text-align: center;
+	background: -webkit-linear-gradient(left, #EFFFF0, #FFFFFF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #EFFFF0, #FFFFFF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #EFFFF0, #FFFFFF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #EFFFF0, #FFFFFF); /* Standard syntax */
+}
+
+h1
+{
+	color: #5F9AB7;
+	padding-top: 35px;
+	padding-bottom: 10px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+h2
+{
+	padding-bottom: 5px;
+	color: #5F9AB7;
+	font-size: 16px;
+}
+
+h3
+{
+	padding-top: 35px;
+	padding-bottom: 20px;
+	color: #5F9AB7;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h4
+{
+	font-size: 16px;
+	padding-bottom: 5px;
+}
+
+h5
+{
+	font-size: 18px;
+}
+
+#psulogo
+{
+    position: fixed;
+	bottom: 32px;
+	left: 32px;
+	width: 141px;
+	height: 81px;
+}
+
+#britelablogo
+{
+	position: fixed;
+	bottom: 32px;
+	right: 32px;
+	width: 189px;
+	height: 62px;
+}
+
+#selectbox
+{
+	margin-right: 160px;
+}
+
+#nextbutton
+{
+	width: 75px;
+}
+
+#reqfield
+{
+	position: relative;
+}
+
+#uploadButton
+{
+	display: inline;
+	width: 125px;
+	margin-left: 0px;
+}
+
+#doneButton
+{
+	background-color:#E8E8E8; /*required for browsers that don't support gradients*/
+	background: -webkit-linear-gradient(top, #F8F8F8, #E8E8E8);
+	background: -moz-linear-gradient(top, #F8F8F8, #E8E8E8);
+	background: -o-linear-gradient(top, #F8F8F8, #E8E8E8);
+	background: linear-gradient(top, #F8F8F8, #E8E8E8);
+	width: 80px;
+	height: 35px;
+	border-radius: 10px;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+#lastDivider
+{
+	margin-bottom: 75px;
+}
+
+#chooseFileButton
+{
+	width: 15%;
+}
+
+#checkboxError
+{
+	color: #FF0000;
+}
+
+#smallerMargin
+{
+	padding-bottom: 1px;
+}
+
+#smallLabel
+{
+	color: #5F9AB7;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#smallDescription
+{
+	display: inline-block;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+#resultDesign
+{
+	font-size: 18px;
+	color: #5F9AB7;
+	margin-bottom: 5px;
+}
+
+#resultResult
+{
+	font-size: 18px;
+	color: #5F9AB7;
+	margin-bottom:5px;
+}
+
+#resultBlock
+{
+	display: inline-block;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 300px;
+	width: 200px;
+}
+
+#resultBlock:before
+{
+	content:'';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#resultBlock span
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+textarea
+{
+	display: inline-block;
+	vertical-align: top;
+	resize: none;
+	width: 200px;
+	margin-bottom: 1em;
+	margin-right: 5px;
+	margin-top: 1em;
+	font-family: "Arial";
+}
+
+select
+{
+	display: inline-block;
+	margin-right: 5px;
+}
+
+table, th, td 
+{
+    border: 1px solid black;
+}
+
+p.centerButton
+{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+.resultPlace
+{
+	font-size: 48px;
+	color: #D9AD00;
+	margin-bottom: 20px;
+}
+
+.freqTable
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.resultRow
+{
+	display: inline-block;
+	width:100%;
+	background: #FFFFFF;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.resultRow img
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.resultRow label
+{
+	display:block;
+}
+
+.resultRow canvas
+{
+	vertical-align:middle;
+}
+
+.error
+{
+	position: absolute;
+	color: #FF0000;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+.bigbutton
+{
+	background-color:#E8E8E8; /*required for browsers that don't support gradients*/
+	background: -webkit-linear-gradient(top, #F8F8F8, #E8E8E8);
+	background: -moz-linear-gradient(top, #F8F8F8, #E8E8E8);
+	background: -o-linear-gradient(top, #F8F8F8, #E8E8E8);
+	background: linear-gradient(top, #F8F8F8, #E8E8E8);
+	width: 308px;
+	height: 110px;
+	border-radius: 15px;
+	font-size: 16px;
+	color: #5F9AB7;
+	cursor: pointer;
+}
+
+.uploadContainer
+{
+	margin-top: 100px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius: 15px;
+	display: inline-block;
+	background-color:#E8E8E8; /*required for browsers that don't support gradients*/
+	background: -webkit-linear-gradient(top, #E4E4E4, #C1C1C1);
+	background: -moz-linear-gradient(top, #E4E4E4, #C1C1C1);
+	background: -o-linear-gradient(top, #E4E4E4, #C1C1C1);
+	background: linear-gradient(top, #E4E4E4, #C1C1C1);
+	width: 350px;
+}
+
+.uploadContainer input
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.uploadContainer img
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.formContainter
+{
+	position: relative;
+}
+
+.formContainer label
+{
+	text-align: left;
+	color: #5F9AB7;
+	display: inline-block;
+	width: 200px;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+.formContainer input
+{
+	left: 200px;
+	display: inline-block;
+	width: 200px;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+.topBar
+{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	background: #FFFFFF;
+	text-align: left;
+}
+
+.topBar input
+{
+	width: 60%;
+	margin-top: 15px;
+	margin-right: 5px;
+}
+
+.topBar textarea
+{
+	width: 60%;
+}
+
+.topBar label
+{
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 15px;
+	margin-bottom: 5px;
+	width: 10%;
+}
+
+.checkboxDivider
+{
+	display: inline-block;
+	text-align: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 200px;
+}
+
+/* Set the size and font of the tab widget */
+.tabGroup {
+	display: inline-block;
+    font: 10pt arial, verdana;
+	text-align: left;
+	vertical-align: middle;
+    width: 420px;
+    height: 350px;
+}
+ 
+/* Configure the radio buttons to hide off screen */
+.tabGroup > input[type="radio"] {
+    position: absolute;
+    left:-100px;
+    top:-100px;
+}
+ 
+/* Configure labels to look like tabs */
+.tabGroup > input[type="radio"] + label {
+	
+
+    /* inline-block such that the label can be given dimensions */
+    display: inline-block;
+ 
+    /* A nice curved border around the tab */
+    border: 1px solid black;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+     
+    /* the bottom border is handled by the tab content div */
+    border-bottom: 0;
+ 
+    /* Padding around tab text */
+    padding: 5px 10px;
+ 
+    /* Set the background color to default gray (non-selected tab) */
+    background-color:#ddd;
+	
+	margin-left: -2px;
+	margin-right: -2px;
+}
+
+ 
+/* Checked tabs must be white with the bottom border removed */
+.tabGroup > input[type="radio"]:checked + label {
+    background-color:white;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+	margin-left: -2px;
+	margin-right: -2px;
+}
+ 
+/* The tab content must fill the widgets size and have a nice border */
+.tabGroup > div {
+    display: none;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 10px;
+    height: 100%;
+    overflow: auto;
+	margin-left: -2px;
+	margin-right: -2px;
+	text-align: center;
+}
+ 
+/* This matchs tabs displaying to thier associated radio inputs */
+.tab1:checked ~ .tab1, .tab2:checked ~ .tab2, .tab3:checked ~ .tab3, .tab4:checked ~ .tab4, .tab5:checked ~ .tab5, .tab6:checked ~ .tab6{
+    display: block;
+}
